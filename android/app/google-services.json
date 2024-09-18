@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "976390450804",
+    "project_id": "flutterappcall",
+    "storage_bucket": "flutterappcall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976390450804:android:b5686e722e757230d72b21",
+        "android_client_info": {
+          "package_name": "com.example.my_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgik8jlT8hyxWLQVOTHkYQq4Xx4yV4o7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
