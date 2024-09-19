@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:my_project/futures/auth/repository/auth_repository.dart';
@@ -40,4 +41,8 @@ class AuthController {
     authRepository.saveUserDataToFirebase(
         name: name, profilePic: profilePic, ref: ref, context: context);
   }
+
+  Stream<UserModel> userDataById(String userId){
+    return authRepository.userData(userId);
+  } 
 }
